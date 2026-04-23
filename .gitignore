@@ -1,0 +1,19 @@
+.venv310/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+env/
+ENV/
+
+# Local outputs and generated artifacts
+outputs_run_now/
+outputs_run_project/
+outputs_multi/
+
+# Keep bundled source copies, but ignore large runtime caches
+submission_package/__pycache__/
+paper_ieee_4page/__pycache__/
